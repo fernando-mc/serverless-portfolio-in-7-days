@@ -9,7 +9,7 @@ import {
   Text,
   Code,
   Footer,
-  // Highlight,
+  Highlight,
   Quote,
   List,
   Browser,
@@ -152,7 +152,7 @@ class App extends Component {
         </Slide>
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
-          notes="I had a customer support jobs but no one thought I could be a dev"
+          notes="I worked customer support | No one thought I could be a dev"
         >
           <Title>Jobs can get boring</Title>
           <Image src={Bored} alt="Neil Patrick Harris spinning in his chair"/>
@@ -256,8 +256,9 @@ class App extends Component {
           notes=""
         >
           <Title>Demo Time!</Title>
+          <Subtitle>Creating a Basic API</Subtitle>
           <List ordered>
-            <li><a href="/30Findi">The demo went well!</a></li>
+            <li><a href="/30">The demo went well!</a></li>
             <li><a href="/22">The demo failed miserably!</a></li>
           </List>
         </Slide>
@@ -466,7 +467,7 @@ class App extends Component {
           <List style={{ color: "white" }} ordered>
             <li>Get some beautiful images</li>
             <li>Process them for dominant colors (using a library)</li>
-            <li>Make an API to return different color schemes</li>
+            <li>Make an API to return different color pallettes</li>
             <li>Make a website to help demonstrate the API</li>
           </List>
         </Slide>
@@ -675,7 +676,7 @@ class App extends Component {
           notes="commited and reviewed literally tens of thousands of lines of SQL"
         >
           <Subtitle style={{ color: "#2B2B2D" }}>
-            2016: I worked as a novice data engineer
+            2016: <br/>I am a novice data engineer
           </Subtitle>
         </Slide>
         <Slide 
@@ -683,15 +684,20 @@ class App extends Component {
           notes=""
         >
           <Text style={{ color: "#2B2B2D" }}>
-            I didn't know how to convert epoch to date in Redshift SQL 
-            1496275200 --> 2017-06-01 00:00:00
+            I need to turn <Highlight>1496275200</Highlight> into <Highlight>2017-06-01</Highlight> using Redshift SQL 
           </Text>
         </Slide>
         <Slide 
           style={{ backgroundColor: "#00ACB5" }}
           notes=""
         >
-          <Text>So I learned and wrote about it.</Text>
+          <Subtitle>So I Googled and read lots of documentation.</Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>And I wrote about what I learned.</Text>
           <Browser url="https://www.fernandomc.com/posts/redshift-epochs-and-timestamps/"/>
         </Slide>
         <Slide 
