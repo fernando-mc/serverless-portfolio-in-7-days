@@ -27,6 +27,13 @@ import Nice from "./img/imnice.gif";
 import Trophy from "./img/trophy.gif";
 import BootstrapOne from "./img/bootstrap-p1.gif"
 import BootstrapTwo from "./img/bootstrap-p2.gif"
+import BootstrapThree from "./img/bootstrap-p3.gif"
+import BootstrapFour from "./img/bootstrap-p4.gif"
+import BootstrapFive from "./img/bootstrap-p5.gif"
+import RedeployOne from "./img/redeploy-p1.gif"
+import RedeployTwo from "./img/redeploy-p2.gif"
+import RedeployThree from "./img/redeploy-p3.gif"
+import NoIdeaDog from "./img/noideadog.gif"
 
 import Riley from "./img/riley.jpg";
 import Husky from "./img/husky.jpg";
@@ -203,7 +210,7 @@ class App extends Component {
           <List ordered>
             <li>Setting up your dev environment (Day 1)</li>
             <li>Finding examples, templates (Day 2)</li>
-            <li>Coming up with an idea (Day 3)</li>
+            <li>Coming up with Your Idea (Day 3)</li>
             <li>Building your project (Day 4-6)</li>
             <li>Showing off your project (Day 7)</li>
           </List>
@@ -213,7 +220,7 @@ class App extends Component {
           style={{ backgroundColor: "#00ACB5" }}
           notes=""
         >
-          <Title>Day 1 - Setting Up.</Title>
+          <Title>Day 1: <br></br> Setting Up</Title>
         </Slide>
         <Slide 
           style={{ backgroundColor: "#00ACB5" }}
@@ -256,7 +263,7 @@ class App extends Component {
         >
           <Title>Demo Time!</Title>
           <List ordered>
-            <li><a href="">The demo went well!</a></li>
+            <li><a href="/30Findi">The demo went well!</a></li>
             <li><a href="/22">The demo failed miserably!</a></li>
           </List>
         </Slide>
@@ -271,31 +278,196 @@ class App extends Component {
           style={{ backgroundColor: "#00ACB5" }}
           notes=""
         >
-          <Subtitle>Create a Serverless Project</Subtitle>
+          <Text>Setup a Serverless Dashboard Account:</Text>
           <Image src={BootstrapTwo} alt="A gif of the bootstrapping process"/>
         </Slide>
-  
-        <Slide>
-          <Browser url="https://dashboard.serverless.com" />
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>Deploy a Serverless service:</Text>
+          <Image src={BootstrapThree} alt="A gif of deploying a simple service"/>
         </Slide>
-        
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>Deploy a Serverless service:</Text>
+          <Image src={BootstrapFour} alt="A gif of deploying a simple service"/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>Deploy a Serverless service:</Text>
+          <Image src={BootstrapFive} alt="A gif of deploying a simple service"/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>Add a Public API Endpoint:</Text>
+          <Image src={RedeployOne} alt="Editing code to add an endpoint"/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Image src={RedeployTwo} alt="Editing code to add an endpoint"/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>Test the Public API Endpoint:</Text>
+          <Image src={RedeployThree} alt="Editing code to add an endpoint"/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle>You've deployed an API!</Subtitle>
+        </Slide>
+        {/* DAY TWO */}
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
           notes=""
         >
-          <Title>Day 2 - Finding Examples</Title>
+          <Title>Day 2: <br></br> Finding Example Projects</Title>
         </Slide>
-
-
-
-
-
-
-        
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
           notes=""
         >
+          <List ordered>
+            <li>
+              <a 
+                href="https://serverless.com/examples/"
+              >
+                Serverless Examples
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://serverless.com/blog/"
+              >
+                Serverless Blog
+              </a>
+            </li>
+            <li>Other Bloggers</li>
+            <li>Medium</li>
+            <li>Google</li>
+            <li>Free Courses!</li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#FD5750" }}
+          notes=""
+        >
+          <Browser url="https://serverless.com/examples/"></Browser>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#FD5750" }}
+          notes=""
+        >
+          <Browser url="https://serverless.com/blog/"></Browser>
+        </Slide>
+        
+        {/* DAY THREE */}
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Title style={{ color: "white" }}>
+            Day 3:
+          </Title>
+          <Subtitle style={{ color: "white" }}>
+            Coming up with Your Idea
+          </Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "white" }}>
+            Sometimes it feels like this:
+          </Subtitle>
+          <Image src={NoIdeaDog} alt="A dog floating in a spaceship with the text: I have no idea what I'm doing" />
+        </Slide>
+        
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "white" }}>
+            To Start:
+          </Subtitle>
+          <List style={{ color: "white" }} ordered>
+            <li>Pick something interesting</li>
+            <li>Pick something small</li>
+            <li>Use familiar tools (not 2-3 new frameworks!)</li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "white" }}>
+            Jump Starting Ideas:
+          </Subtitle>
+          <List style={{ color: "white" }} ordered>
+            <li>Get some real data</li>
+            <li>Find a cool API</li>
+            <li>Copy something cool (the idea, not the code)</li>
+            <li>Sketch something out</li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "white" }}>
+            Some Data Sources:
+          </Subtitle>
+          <List style={{ color: "white" }} ordered>
+            <li>Data.gov</li>
+            <li>Academia</li>
+            <li>Make it yourself!</li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "white" }}>API References:</Subtitle>
+          <List style={{ color: "white" }} ordered>
+            <li>
+              <a 
+                href="https://github.com/public-apis/public-apis"
+              >Public APIs
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://github.com/chanonroy/cool-apis"
+              >
+                Fun APIs
+              </a>
+            </li>
+          </List>
+        </Slide>
+        
+        {/* DAY FOUR */}
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Title style={{ color: "white" }}>
+            Day 3:
+          </Title>
+          <Subtitle style={{ color: "white" }}>
+            Coming up with Your Idea
+          </Subtitle>
         </Slide>
         
 
