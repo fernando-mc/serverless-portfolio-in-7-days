@@ -1,5 +1,3 @@
-### Diorama Demo
+### Live Presentation 
 
-The demo can be found at https://sambego.github.io/diorama-demo/
-
-For more info go to https://github.com/Sambego/diorama#text
+The presentation can be found at https://fernando-mc.github.io/serverless-portfolio-in-7-days/
