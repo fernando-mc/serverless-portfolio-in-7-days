@@ -2,7 +2,7 @@
   "name": "diorama-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sambego.github.io/diorama-demo",
+  "homepage": "https://fernando-mc.github.io/serverless-portfolio-in-7-days",
   "dependencies": {
     "@sambego/diorama": "^1.1.0",
     "prop-types": "^15.6.2",
@@ -28,6 +28,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.1"
   }
 }
