@@ -25,6 +25,8 @@ import Fernando from "./img/fernando.jpg";
 import Bored from "./img/bored.gif";
 import Nice from "./img/imnice.gif";
 import Trophy from "./img/trophy.gif";
+import BootstrapOne from "./img/bootstrap-p1.gif"
+import BootstrapTwo from "./img/bootstrap-p2.gif"
 
 import Riley from "./img/riley.jpg";
 import Husky from "./img/husky.jpg";
@@ -80,12 +82,12 @@ class App extends Component {
             </div>
           </Columns>
         </Slide>
-        <Slide style={{ backgroundColor: "#FD5750" }}>
+        <Slide style={{ backgroundColor: "#00ACB5" }}>
           <Title>
             Who are you?
           </Title>
         </Slide>
-        <Slide style={{ backgroundColor: "#FD5750" }}>
+        <Slide style={{ backgroundColor: "#00ACB5" }}>
           <Subtitle>
             Right now:
           </Subtitle>
@@ -95,7 +97,7 @@ class App extends Component {
             <li>Find someone(s) nearby</li>
           </List>
         </Slide>
-        <Slide style={{ backgroundColor: "#FD5750" }}>
+        <Slide style={{ backgroundColor: "#00ACB5" }}>
           <Subtitle>
             Share your:
           </Subtitle>
@@ -118,7 +120,7 @@ class App extends Component {
           </Quote>
         </Slide>
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#00ACB5" }}
           notes="
             Slides are online | 
             People are not | 
@@ -130,16 +132,17 @@ class App extends Component {
           </Title>
         </Slide>
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#F29B27" }}
           notes=""
         >
-          <Title>Participation Prices (Bribes)</Title>
+          <Title>Participation Prizes</Title>
+          <Subtitle>(Bribes)</Subtitle>
           <List ordered>
             <li>Access to Free Courses on Serverless</li>
             <li>Stickers</li>
             <li>A custom guide on a serverless topic of your choice</li>
-            <li>*Maybe* I will teach you some stage combat</li>
           </List>
+          <Text><h5>4. <i>Maybe</i> I will teach you some stage combat</h5></Text>
         </Slide>
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
@@ -170,7 +173,7 @@ class App extends Component {
           <Image src={Trophy} alt="Celebrity holding a trophy and waving"/>
         </Slide>
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#00ACB5" }}
           notes=""
         >
           <Title>
@@ -178,7 +181,7 @@ class App extends Component {
           </Title>
         </Slide>
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#00ACB5" }}
           notes=""
         >
           <List ordered>
@@ -188,38 +191,115 @@ class App extends Component {
           </List>
         </Slide>
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#8AB274" }}
           notes=""
         >
           <Title>What are we learning?</Title>
         </Slide>
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#8AB274" }}
           notes=""
         >
-          <List>
-            <li>Day 1 - Setting up your dev environment</li>
-            <li>Day 2 - Finding examples, templates</li>
-            <li>Day 3 - Coming up with an idea</li>
-            <li>Day 4/5/6 - Building your project</li>
-            <li>Day 7 - Showing off your project</li>
+          <List ordered>
+            <li>Setting up your dev environment (Day 1)</li>
+            <li>Finding examples, templates (Day 2)</li>
+            <li>Coming up with an idea (Day 3)</li>
+            <li>Building your project (Day 4-6)</li>
+            <li>Showing off your project (Day 7)</li>
           </List>
         </Slide>
+        {/* DAY ONE */}
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#00ACB5" }}
           notes=""
         >
           <Title>Day 1 - Setting Up.</Title>
         </Slide>
-
-        Install Node - https://nodejs.org/en/
-        Create an AWS Account - https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title>Install Node & npm</Title>
+          <Text>
+            <a href="https://nodejs.org/en/">https://nodejs.org/en/</a>
+          </Text>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title>Create an AWS Account</Title>
+          <Text>
+            <a 
+              href="https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/"
+            >
+              Account Creation Process
+            </a>
+          </Text>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle>Install the <br></br>Serverless Framework</Subtitle>
+          <br></br><br></br>
+          <Code
+            code={
+              "npm install serverless -g"
+            }
+            lang="bash"
+          />
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title>Demo Time!</Title>
+          <List ordered>
+            <li><a href="">The demo went well!</a></li>
+            <li><a href="/22">The demo failed miserably!</a></li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle>Create a Serverless Project</Subtitle>
+          <Image src={BootstrapOne} alt="A gif of the bootstrapping process"/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle>Create a Serverless Project</Subtitle>
+          <Image src={BootstrapTwo} alt="A gif of the bootstrapping process"/>
+        </Slide>
+  
+        <Slide>
+          <Browser url="https://dashboard.serverless.com" />
+        </Slide>
+        
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
           notes=""
         >
           <Title>Day 2 - Finding Examples</Title>
         </Slide>
+
+
+
+
+
+
+        
+        <Slide 
+          style={{ backgroundColor: "#FD5750" }}
+          notes=""
+        >
+        </Slide>
+        
+
+        
         
 
 
@@ -228,10 +308,6 @@ class App extends Component {
           notes=""
         >
         </Slide>
-        
-
-
-
         <Slide>
           <Text>
             Code: <a href="https://github.com/fernando-mc/serverless-in-7-days/">
@@ -397,7 +473,7 @@ class App extends Component {
         </Slide>
         <Slide>
           <Subtitle>
-            You'll definitely will want to preview some{" "}
+            You'll definitely will want to preview some {""}
             <Highlight>external links</Highlight> like this!
           </Subtitle>
         </Slide>
