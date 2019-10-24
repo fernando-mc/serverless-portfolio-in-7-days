@@ -9,17 +9,14 @@ import {
   Text,
   Code,
   Footer,
-  Highlight,
+  // Highlight,
   Quote,
   List,
   Browser,
-  Video
+  // Video
 } from "@sambego/diorama";
 import "prismjs/components/prism-bash.min.js";
 import "prismjs/components/prism-jsx.min.js";
-
-import Alert from "./Alert";
-import Rainbow from "./Rainbow";
 
 import Fernando from "./img/fernando.jpg";
 import Bored from "./img/bored.gif";
@@ -34,18 +31,14 @@ import RedeployOne from "./img/redeploy-p1.gif"
 import RedeployTwo from "./img/redeploy-p2.gif"
 import RedeployThree from "./img/redeploy-p3.gif"
 import NoIdeaDog from "./img/noideadog.gif"
-
-import Riley from "./img/riley.jpg";
-import Husky from "./img/husky.jpg";
-import Capi from "./img/cap.jpg";
-import Orca from "./img/orca.jpg";
-import PresenterNotes1 from "./img/presenter-1.png";
-import PresenterNotes2 from "./img/presenter-2.png";
-
-import Iceland from "./video/iceland.mp4";
+import ShowYourWork from "./img/showwork.gif"
+import GoogleTyping from "./img/typing-googlesearch.png"
+import RedshiftGoogle from "./img/redshift-google.png"
+import RedshiftAnalytics from "./img/redshift-ga.png"
+import ThankYou from "./img/thankyou.gif"
 
 class App extends Component {
-  static footer = <Footer left="@fmc_sea &nbsp;&nbsp;&nbsp;#LibertyJS" right="&nbsp;"/>;
+  static footer = <Footer left="@fmc_sea &nbsp;&nbsp;&nbsp;#LibertyJS2019" right="&nbsp;"/>;
 
   render() {
     return (
@@ -195,6 +188,7 @@ class App extends Component {
             <li>I assume some development experience</li>
             <li>You can't build something BIG in 7 days </li>
             <li>You will need to learn new things!</li>
+            <li>50 lines of Python were used in the making of this talk</li>
           </List>
         </Slide>
         <Slide 
@@ -432,7 +426,7 @@ class App extends Component {
           <List style={{ color: "white" }} ordered>
             <li>Data.gov</li>
             <li>Academia</li>
-            <li>Make it yourself!</li>
+            <li>Generate it yourself!</li>
           </List>
         </Slide>
         <Slide 
@@ -456,291 +450,312 @@ class App extends Component {
             </li>
           </List>
         </Slide>
-        
-        {/* DAY FOUR */}
         <Slide 
           style={{ backgroundColor: "#6F2D52" }}
           notes=""
         >
           <Title style={{ color: "white" }}>
-            Day 3:
+            An Example:
           </Title>
+          <Subtitle style={{ color: "white" }}>The Color Scheme API</Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <List style={{ color: "white" }} ordered>
+            <li>Get some beautiful images</li>
+            <li>Process them for dominant colors (using a library)</li>
+            <li>Make an API to return different color schemes</li>
+            <li>Make a website to help demonstrate the API</li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Browser url="https://serverlessfoo.com/projects/chameleon/index.html" />
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes="
+          I love your ideas. SO... I think I heard you say: 
+          Make a site to vote on different songs?
+          Great!"
+        >
           <Subtitle style={{ color: "white" }}>
-            Coming up with Your Idea
+            Let's brainstorm ideas
           </Subtitle>
         </Slide>
         
+        {/* DAY FOUR */}
+        <Slide 
+          style={{ backgroundColor: "#8AB274" }}
+          notes=""
+        >
+          <Title>
+            Day 4-6:
+          </Title>
+          <Subtitle>
+            Building a Real Project
+          </Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#8AB274" }}
+          notes=""
+        >
+          <Subtitle>LibertyJS Jams</Subtitle>
+          <List ordered>
+            <li>Showcase some songs</li>
+            <li>See vote totals on each song</li>
+            <li>Sign into the site and vote</li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#8AB274" }}
+          notes=""
+        >
+          <Title>DEMO TIME!</Title>
+          <List>
+            <li>
+              <span><a href="/49">The demo went great</a></span>
+            </li>
+            <li>
+              <a href="/48">The demo went&nbsp;
+                <span 
+                  role="img" 
+                  aria-label="A grimacing face emoji">
+                     😬
+                </span>
+              </a>
+            </li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#8AB274" }}
+          notes=""
+        >
+          <Subtitle>Honestly? I don't have a backup for this one.</Subtitle>
+        </Slide>
 
-        
+        {/* DAY SEVEN */}
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title style={{ color: "#2B2B2D" }}>
+            Day 7:
+          </Title>
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Showing off your project
+          </Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Where to show off your project?
+          </Subtitle>
+          <List style={{ color: "#2B2B2D" }} ordered>
+            <li>Your own website with a custom domain <br></br>($15/year on AWS)</li>
+            <li>GitHub (free hosting!)</li>
+            <li>GitHub Pages (free hosting!)</li>
+            <li>Netlify (free hosting!)</li>
+          </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title style={{ color: "#2B2B2D" }}>
+            Wooo! We're done right?
+          </Title>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title style={{ color: "#2B2B2D" }}>
+            Wrong!
+          </Title>
+          <Image src={ShowYourWork} alt="A gif of Bart Simpson saying 'and show your work'" />
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            You need to help folks know what you did!
+          </Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Here's why.
+          </Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Quote style={{ color: "#2B2B2D" }}>
+            Hey, we're having errors in AWS Lambda after upgrading to Python 3.7 - Do you know what's going on?
+          </Quote>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+        <Code code={
+          `
+          from typing import Optional, Union, List
+          File "/var/task/typing.py", line 1356, in <module>
+          class Callable(extra=collections_abc.Callable, 
+            metaclass=CallableMeta):
+          File "/var/task/typing.py", line 1004, in __new__
+          self._abc_registry = extra._abc_registry
+          AttributeError: type object 'Callable' has no 
+            attribute '_abc_registry'
+          `} lang="bash" 
+        />
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Uhhhh...? (I don't)
+          </Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+           <Browser url="http://letmegooglethat.com/?q=typing+python+issue+upgrading+python+3.7"/>
+        </Slide>
         
 
 
         <Slide 
-          style={{ backgroundColor: "#FD5750" }}
+          style={{ backgroundColor: "#00ACB5" }}
           notes=""
         >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Well look at that.
+          </Subtitle>
+          <Image src={GoogleTyping} ></Image>
         </Slide>
-        <Slide>
-          <Text>
-            Code: <a href="https://github.com/fernando-mc/serverless-in-7-days/">
-            https://github.com/fernando-mc/serverless-in-7-days/
-            </a>
+
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Solve the same issue once.
+          </Subtitle>
+        </Slide>
+
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Be a reference for yourself.
+          </Subtitle>
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            Be a reference for others.
+          </Subtitle>
+        </Slide>
+
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes="commited and reviewed literally tens of thousands of lines of SQL"
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            2016: I worked as a novice data engineer
+          </Subtitle>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text style={{ color: "#2B2B2D" }}>
+            I didn't know how to convert epoch to date in Redshift SQL 
+            1496275200 --> 2017-06-01 00:00:00
           </Text>
         </Slide>
-        <Slide notes="Getting started with Diorama is easy, just install the npm package. Once installed you're all set to create that presentation!">
-          <Subtitle>Getting started is easy!</Subtitle>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>So I learned and wrote about it.</Text>
+          <Browser url="https://www.fernandomc.com/posts/redshift-epochs-and-timestamps/"/>
         </Slide>
-        <Slide>
-          <Code code={"npm install @sambego/diorama"} lang="bash" />
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>It helps when I forget</Text>
+          <Image src={RedshiftGoogle}/>
         </Slide>
-        <Slide>
-          <Subtitle>
-            Now create a <Highlight>deck</Highlight>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Text>It remains one of my most popular posts</Text>
+          <br></br>
+          <Image src={RedshiftAnalytics}/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            You are the best person to document what you are learning.
           </Subtitle>
         </Slide>
-        <Slide>
-          <Code code={"<Deck>\n  ...\n</Deck>"} lang="jsx" />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Once you've got a deck, create some <Highlight>slides</Highlight>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title style={{ color: "#2B2B2D" }}>
+            Keep Writing!
+          </Title>
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            For Yourself
           </Subtitle>
-        </Slide>
-        <Slide>
-          <Code
-            code={"<Deck>\n  <Slide>...</Slide\n  <Slide>...</Slide\n</Deck>"}
-            lang="jsx"
-          />
-        </Slide>
-        <Slide>
-          <Text>
-            The <Highlight>deck</Highlight> component accepts any valid React
-            node. By using the <Highlight>Slide</Highlight> component, you make
-            sure they display using all available space.
-          </Text>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            We've got a few frequently used component to use in your slides
+          <Text style={{ color: "#2B2B2D" }}>(You'll forget)</Text>
+          <br></br>
+          <Subtitle style={{ color: "#2B2B2D" }}>
+            For Others<br/>
           </Subtitle>
+          <Text style={{ color: "#2B2B2D" }}>(You'll help them learn)</Text>
         </Slide>
-        <Slide>
-          <Title>A Title</Title>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes=""
+        >
+          <Title>Thank you!</Title>
+          <Image src={ThankYou}/>
         </Slide>
-        <Slide>
-          <Subtitle>A Subtitle, this is a bit smaller</Subtitle>
-        </Slide>
-        <Slide>
-          {" "}
-          st
-          <Text>
-            And some regular <Highlight>text</Highlight>. Use this if you have a
-            bigger block of text you want to display. Using a big block of text
-            on your slides might be overwhelming, but sometimes you don't have
-            any choice.
-          </Text>
-        </Slide>
-        <Slide notes="You can add pictures to your slides to illustrate your thoughts.">
-          <Subtitle>
-            A <Highlight>picture</Highlight> is worth a thousand words
+        
+        <Slide
+          notes=""
+          style={{ backgroundColor: "#FD5750" }}
+        >
+          <Subtitle
+            style={{ color: "black" }}
+          >
+            References:
           </Subtitle>
-        </Slide>
-        <Slide>
-          <Image src={Riley} alt="A cat looking into the camera" />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Even better when <Highlight>full screen</Highlight>
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Image src={Riley} alt="A cat looking into the camera" full />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            <Highlight>Lists</Highlight>? We've got your back!
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <List>
-            <li>eeny</li>
-            <li>meeny</li>
-            <li>miny</li>
-            <li>moe</li>
+          <List style={{ color: "#2B2B2D" }} ordered>
+            <li>This Talk - tiny.cc/liberty7days</li>
+            <li>LibertyJS Jams Code - tiny.cc/libertyjams</li>
+            <li>Get in touch - fernandomc.com/contact</li>
           </List>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Why not <Highlight>order</Highlight> them?
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <List ordered>
-            <li>First</li>
-            <li>Second</li>
-            <li>Third</li>
-            <li>Fourth</li>
-          </List>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Need more structure? <br />
-            Try <Highlight>columns</Highlight>
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Don't limit yourself to <br />
-            <Highlight>just 2 columns</Highlight>
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Columns>
-            <div>
-              <Image src={Riley} alt="A picture of a cat" full color="#99c794" />
-            </div>
-            <div>
-              <Image
-                src={Husky}
-                alt="A picture of a husky"
-                full
-                color="#ec5f67"
-              />
-            </div>
-            <div>
-              <Image
-                src={Capi}
-                alt="A picture of a capybara"
-                full
-                color="#fac863"
-              />
-            </div>
-            <div>
-              <Image
-                src={Orca}
-                alt="A picture of a killer whale"
-                full
-                color="#c594c5"
-              />
-            </div>
-          </Columns>
-        </Slide>
-        <Slide>
-          <Subtitle>Hey look, these are moving pictures!</Subtitle>
-        </Slide>
-        <Slide>
-          <Video src={Iceland} mute loop autoplay />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Showing <Highlight>code</Highlight> is easy too!
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Code
-            code={
-              "const showDelayedAlert = () => {\n  window.setTimeout(() => {\n    alert('This is an alert!');\n  }, 1000);\n}"
-            }
-          />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            You'll definitely will want to preview some {""}
-            <Highlight>external links</Highlight> like this!
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Browser url="https://www.fernandomc.com" />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            So <Highlight>why</Highlight> make a presentation in{" "}
-            <Highlight>React</Highlight>?
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            <Highlight>Instant shareability</Highlight>. Upload somwhere and
-            share.
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            <Highlight>Works on any device</Highlight>. Open a browser an rock
-            it on stage!
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            <Highlight>Live Demos!</Highlight>
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Alert />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Or even <Highlight>better</Highlight>!
-          </Subtitle>
-        </Slide>
-        <Rainbow />
-        <Slide>
-          <Subtitle>
-            There's <Highlight>no limit</Highlight> to what you can do!
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            You need some <Highlight>notes</Highlight> while presenting?
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Image
-            src={PresenterNotes1}
-            alt="A preview of the presenter notes window"
-            contain
-          />
-        </Slide>
-        <Slide>
-          <Image
-            src={PresenterNotes2}
-            alt="A preview of the presenter notes window"
-            contain
-          />
-        </Slide>
-        <Slide>
-          <Subtitle>
-            Add the <Highlight>presenter</Highlight> property to the{" "}
-            <Highlight>Deck</Highlight> component.
-          </Subtitle>
-        </Slide>
-        <Slide>
-          <Code code={"<Deck presenterNotes>\n  ...\n</Deck>"} lang="jsx" />
-        </Slide>
-        <Slide>
-          <Text>
-            To see the presenter notes in action click{" "}
-            <a
-              href="https://sambego.github.io/diorama-demo/"
-              title="Open presentation with presenter notes"
-            >
-              here
-            </a>
-          </Text>
-        </Slide>
-        <Slide>
-          <Subtitle>
-            So get started, download the{" "}
-            <Highlight>
-              <a
-                href="https://github.com/sambego/diorama"
-                style={{ color: "black" }}
-              >
-                npm package
-              </a>
-            </Highlight>
-            .
-          </Subtitle>
         </Slide>
       </Deck>
     );
