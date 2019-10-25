@@ -89,7 +89,10 @@ class App extends Component {
             </div>
           </Columns>
         </Slide>
-        <Slide style={{ backgroundColor: "#00ACB5" }}>
+        <Slide 
+          style={{ backgroundColor: "#00ACB5" }}
+          notes="Not philosophically"
+        >
           <Title>
             Who are you?
           </Title>
@@ -140,7 +143,7 @@ class App extends Component {
         </Slide>
         <Slide 
           style={{ backgroundColor: "#F29B27" }}
-          notes=""
+          notes="3 minutes"
         >
           <Title>Participation Prizes</Title>
           <Subtitle>(Bribes)</Subtitle>
@@ -213,7 +216,7 @@ class App extends Component {
         </Slide>
         <Slide 
           style={{ backgroundColor: "#6F2D52" }}
-          notes=""
+          notes="5 minutes"
         >
           <Subtitle>Common FaaS Options</Subtitle>
           <List ordered>
@@ -338,8 +341,8 @@ class App extends Component {
           <Title>Demo Time!</Title>
           <Subtitle>Creating a Basic API</Subtitle>
           <List ordered>
-            <li><a href="/30">The demo went well!</a></li>
-            <li><a href="/22">The demo failed miserably!</a></li>
+            <li><a href="/34">The demo went well!</a></li>
+            <li><a href="/26">The demo failed miserably!</a></li>
           </List>
         </Slide>
         <Slide 
@@ -399,20 +402,20 @@ class App extends Component {
         </Slide>
         <Slide 
           style={{ backgroundColor: "#00ACB5" }}
-          notes=""
+          notes="Be at 15 minutes"
         >
           <Subtitle>You've deployed an API!</Subtitle>
         </Slide>
         {/* DAY TWO */}
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
-          notes=""
+          notes="Search for 'node aws' or 'bot' or 'database'"
         >
           <Title>Day 2: <br></br> Finding Example Projects</Title>
         </Slide>
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
-          notes=""
+          notes="Be cutting edge - try the latest and greatest"
         >
           <List ordered>
             <li>
@@ -451,7 +454,7 @@ class App extends Component {
         {/* DAY THREE */}
         <Slide 
           style={{ backgroundColor: "#6F2D52" }}
-          notes=""
+          notes="17 minutes"
         >
           <Title style={{ color: "white" }}>
             Day 3:
@@ -533,7 +536,7 @@ class App extends Component {
         </Slide>
         <Slide 
           style={{ backgroundColor: "#6F2D52" }}
-          notes=""
+          notes="Be at 21 minutes"
         >
           <Title style={{ color: "white" }}>
             An Example:
@@ -550,6 +553,39 @@ class App extends Component {
             <li>Make an API to return different color pallettes</li>
             <li>Make a website to help demonstrate the API</li>
           </List>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Browser url="https://www.pexels.com/search/landscape/"/>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Code code={
+            `
+/* A photo's color scheme */
+rgb(192,192,192)
+rgb(255,215,0)
+rgb(128,128,0)
+            `} lang="css" 
+          />
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Code code={
+            `
+{
+  primary: "rgb(192,192,192)",
+  color1: "rgb(255,215,0)",
+  color2: "rgb(128,128,0)"
+}
+          `}
+          />
         </Slide>
         <Slide 
           style={{ backgroundColor: "#6F2D52" }}
@@ -599,10 +635,10 @@ class App extends Component {
           <Title>DEMO TIME!</Title>
           <List>
             <li>
-              <span><a href="/49">The demo went great</a></span>
+              <span><a href="/55">The demo went great</a></span>
             </li>
             <li>
-              <a href="/48">The demo went&nbsp;
+              <a href="http://www.serverlessjams.com.s3-website-us-east-1.amazonaws.com/">The demo went&nbsp;
                 <span 
                   role="img" 
                   aria-label="A grimacing face emoji">
@@ -622,7 +658,7 @@ class App extends Component {
         {/* DAY SEVEN */}
         <Slide 
           style={{ backgroundColor: "#00ACB5" }}
-          notes=""
+          notes="Be at 30?"
         >
           <Title style={{ color: "#2B2B2D" }}>
             Day 7:
