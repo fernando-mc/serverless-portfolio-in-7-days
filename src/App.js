@@ -39,6 +39,13 @@ import ThankYou from "./img/thankyou.gif"
 
 class App extends Component {
   static footer = <Footer left="@fmc_sea &nbsp;&nbsp;&nbsp;#LibertyJS2019" right="&nbsp;"/>;
+  constructor() {
+    super()
+
+    this.state = {
+      flipped: false,
+    }
+  }
 
   render() {
     return (
@@ -143,6 +150,79 @@ class App extends Component {
             <li>A custom guide on a serverless topic of your choice</li>
           </List>
           <Text><h5>4. <i>Maybe</i> I will teach you some stage combat</h5></Text>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Title>What is Serverless?</Title>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Title>Game time.</Title>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <Title>1</Title>
+              </div>
+              <div class="flip-card-back">
+                <Text>Ephemeral Compute - (FaaS)</Text>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <Title>2</Title>
+              </div>
+              <div class="flip-card-back">
+                <Text>Managed Cloud Services - (BaaS)</Text>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <Title>3</Title>
+              </div>
+              <div class="flip-card-back">
+                <Text>Not managing server security, scaling, patching, maintenance</Text>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <Title>4</Title>
+              </div>
+              <div class="flip-card-back">
+                <Text>Focus on the application, not the infrastructure</Text>
+              </div>
+            </div>
+          </div>
+        </Slide>
+        <Slide 
+          style={{ backgroundColor: "#6F2D52" }}
+          notes=""
+        >
+          <Subtitle>Common FaaS Options</Subtitle>
+          <List ordered>
+            <li>AWS Lambda</li>
+            <li>Azure Functions</li>
+            <li>Google Cloud Functions</li>
+            <li>Auth0 Webtask</li>
+            <li>Twilio Functions (AWS Lambda)</li>
+          </List>
         </Slide>
         <Slide 
           style={{ backgroundColor: "#FD5750" }}
