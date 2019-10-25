@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/serverless-portfolio-in-7-days/static/media/bootstrap-p4.03aa23c1.gif"
   },
   {
-    "revision": "5484d4cef25cb296a723",
-    "url": "/serverless-portfolio-in-7-days/static/css/main.e29dd16f.chunk.css"
+    "revision": "9a3abad51ef11928d36c",
+    "url": "/serverless-portfolio-in-7-days/static/css/main.724d7ef2.chunk.css"
   },
   {
-    "revision": "c548fa416640888892a4",
-    "url": "/serverless-portfolio-in-7-days/static/js/1.c548fa41.chunk.js"
+    "revision": "554f5a486efb743c4941",
+    "url": "/serverless-portfolio-in-7-days/static/js/1.554f5a48.chunk.js"
   },
   {
     "revision": "31f924daa3289e33e200",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/serverless-portfolio-in-7-days/static/media/bootstrap-p3.243f92ff.gif"
   },
   {
-    "revision": "5484d4cef25cb296a723",
-    "url": "/serverless-portfolio-in-7-days/static/js/main.5484d4ce.chunk.js"
+    "revision": "9a3abad51ef11928d36c",
+    "url": "/serverless-portfolio-in-7-days/static/js/main.9a3abad5.chunk.js"
   },
   {
     "revision": "401225d47423741040414df3062ec174",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/serverless-portfolio-in-7-days/static/media/thankyou.a89d53e1.gif"
   },
   {
-    "revision": "9c7f33f80e2f3d9f3faf092b837a7163",
+    "revision": "322003e8dca85fe4be1bd9a8fa1e8306",
     "url": "/serverless-portfolio-in-7-days/index.html"
   }
 ];

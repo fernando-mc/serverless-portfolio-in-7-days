@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/serverless-portfolio-in-7-days/precache-manifest.8df79f939d7dc7d430bd6cb043bc461c.js"
+  "/serverless-portfolio-in-7-days/precache-manifest.274d16772dec711b0cb54e2a7c1ae94d.js"
 );
 
 workbox.clientsClaim();

@@ -1,9 +1,9 @@
 {
-  "main.css": "/serverless-portfolio-in-7-days/static/css/main.e29dd16f.chunk.css",
-  "main.js": "/serverless-portfolio-in-7-days/static/js/main.5484d4ce.chunk.js",
-  "main.js.map": "/serverless-portfolio-in-7-days/static/js/main.5484d4ce.chunk.js.map",
-  "static/js/1.c548fa41.chunk.js": "/serverless-portfolio-in-7-days/static/js/1.c548fa41.chunk.js",
-  "static/js/1.c548fa41.chunk.js.map": "/serverless-portfolio-in-7-days/static/js/1.c548fa41.chunk.js.map",
+  "main.css": "/serverless-portfolio-in-7-days/static/css/main.724d7ef2.chunk.css",
+  "main.js": "/serverless-portfolio-in-7-days/static/js/main.9a3abad5.chunk.js",
+  "main.js.map": "/serverless-portfolio-in-7-days/static/js/main.9a3abad5.chunk.js.map",
+  "static/js/1.554f5a48.chunk.js": "/serverless-portfolio-in-7-days/static/js/1.554f5a48.chunk.js",
+  "static/js/1.554f5a48.chunk.js.map": "/serverless-portfolio-in-7-days/static/js/1.554f5a48.chunk.js.map",
   "runtime~main.js": "/serverless-portfolio-in-7-days/static/js/runtime~main.31f924da.js",
   "runtime~main.js.map": "/serverless-portfolio-in-7-days/static/js/runtime~main.31f924da.js.map",
   "static/media/typing-googlesearch.png": "/serverless-portfolio-in-7-days/static/media/typing-googlesearch.a164aba8.png",
@@ -24,8 +24,8 @@
   "static/media/redshift-google.png": "/serverless-portfolio-in-7-days/static/media/redshift-google.14777554.png",
   "static/media/redshift-ga.png": "/serverless-portfolio-in-7-days/static/media/redshift-ga.216552aa.png",
   "static/media/thankyou.gif": "/serverless-portfolio-in-7-days/static/media/thankyou.a89d53e1.gif",
-  "static/css/main.e29dd16f.chunk.css.map": "/serverless-portfolio-in-7-days/static/css/main.e29dd16f.chunk.css.map",
+  "static/css/main.724d7ef2.chunk.css.map": "/serverless-portfolio-in-7-days/static/css/main.724d7ef2.chunk.css.map",
   "index.html": "/serverless-portfolio-in-7-days/index.html",
-  "precache-manifest.8df79f939d7dc7d430bd6cb043bc461c.js": "/serverless-portfolio-in-7-days/precache-manifest.8df79f939d7dc7d430bd6cb043bc461c.js",
+  "precache-manifest.274d16772dec711b0cb54e2a7c1ae94d.js": "/serverless-portfolio-in-7-days/precache-manifest.274d16772dec711b0cb54e2a7c1ae94d.js",
   "service-worker.js": "/serverless-portfolio-in-7-days/service-worker.js"
 }
