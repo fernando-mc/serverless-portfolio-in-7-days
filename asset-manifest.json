@@ -1,7 +1,7 @@
 {
   "main.css": "/serverless-portfolio-in-7-days/static/css/main.724d7ef2.chunk.css",
-  "main.js": "/serverless-portfolio-in-7-days/static/js/main.9a3abad5.chunk.js",
-  "main.js.map": "/serverless-portfolio-in-7-days/static/js/main.9a3abad5.chunk.js.map",
+  "main.js": "/serverless-portfolio-in-7-days/static/js/main.7dbfa7d9.chunk.js",
+  "main.js.map": "/serverless-portfolio-in-7-days/static/js/main.7dbfa7d9.chunk.js.map",
   "static/js/1.554f5a48.chunk.js": "/serverless-portfolio-in-7-days/static/js/1.554f5a48.chunk.js",
   "static/js/1.554f5a48.chunk.js.map": "/serverless-portfolio-in-7-days/static/js/1.554f5a48.chunk.js.map",
   "runtime~main.js": "/serverless-portfolio-in-7-days/static/js/runtime~main.31f924da.js",
@@ -26,6 +26,6 @@
   "static/media/thankyou.gif": "/serverless-portfolio-in-7-days/static/media/thankyou.a89d53e1.gif",
   "static/css/main.724d7ef2.chunk.css.map": "/serverless-portfolio-in-7-days/static/css/main.724d7ef2.chunk.css.map",
   "index.html": "/serverless-portfolio-in-7-days/index.html",
-  "precache-manifest.274d16772dec711b0cb54e2a7c1ae94d.js": "/serverless-portfolio-in-7-days/precache-manifest.274d16772dec711b0cb54e2a7c1ae94d.js",
+  "precache-manifest.a270eb0a63bd8486f188ae7e542f7b50.js": "/serverless-portfolio-in-7-days/precache-manifest.a270eb0a63bd8486f188ae7e542f7b50.js",
   "service-worker.js": "/serverless-portfolio-in-7-days/service-worker.js"
 }

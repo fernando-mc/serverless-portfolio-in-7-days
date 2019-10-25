@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/serverless-portfolio-in-7-days/static/media/bootstrap-p4.03aa23c1.gif"
   },
   {
-    "revision": "9a3abad51ef11928d36c",
+    "revision": "7dbfa7d98de7b5f100dc",
     "url": "/serverless-portfolio-in-7-days/static/css/main.724d7ef2.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/serverless-portfolio-in-7-days/static/media/bootstrap-p3.243f92ff.gif"
   },
   {
-    "revision": "9a3abad51ef11928d36c",
-    "url": "/serverless-portfolio-in-7-days/static/js/main.9a3abad5.chunk.js"
+    "revision": "7dbfa7d98de7b5f100dc",
+    "url": "/serverless-portfolio-in-7-days/static/js/main.7dbfa7d9.chunk.js"
   },
   {
     "revision": "401225d47423741040414df3062ec174",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/serverless-portfolio-in-7-days/static/media/thankyou.a89d53e1.gif"
   },
   {
-    "revision": "322003e8dca85fe4be1bd9a8fa1e8306",
+    "revision": "eb0afc443118ffe7a0540593224028d8",
     "url": "/serverless-portfolio-in-7-days/index.html"
   }
 ];
